@@ -1,0 +1,44 @@
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <style>
+        body{
+           background-color:paleturquoise;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        h1{
+            font-size: 50px;
+            color: white;
+            text-shadow: 2px 3px 2px red;
+        }
+        div{
+            height: 500px;
+            width: 40%;
+            margin-left: 30%;
+            margin-top: 8%;
+            border: 2px solid white;
+            border-radius: 10px;
+            background-color:plum;
+            box-shadow: 5px 5px 10px palevioletred;
+        }
+    </style>
+  </head>
+  <body>
+    <div>
+        <h1>Weather Report</h1>
+        <h2>City  : <%= city%></h2>
+    <h2>Temperature : <%= temperature %> °C</h2>
+    <h2>Humidity : <%= humidity %> %</h2>
+    <h2>WindSpeed  : <%= windSpeed %> kph</h2>
+    <h2>Min Temp : <%= temp_min %> °C</h2>
+    <h2>Max Temp : <%= temp_max %> °C</h2>
+    <h2>Pressure : <%= pressure %> pascal</h2>
+    
+</div>
+  </body>
+  </html>
